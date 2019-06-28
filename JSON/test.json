@@ -1,6 +1,22 @@
-{
-    "id" : 1,
-    "name" : "Ezzahid Ilyas",
-    "compagnie" : "REWeb",
-    "phone" : "+7-888-777-66-55 "
-}
+[
+  {
+    "id": 1,
+    "name": "Ezzahid Ilyas",
+    "compagnie": "REWeb",
+    "phone": "+7-888-777-66-55 "
+  },
+
+  {
+    "id": 2,
+    "name": "Brad Pitt",
+    "compagnie": "REWeb",
+    "phone": "+7-888-777-66-55 "
+  },
+
+  {
+    "id": 3,
+    "name": "Angelina Jolie",
+    "compagnie": "REWeb",
+    "phone": "+7-888-777-66-55 "
+  }
+]

@@ -9,15 +9,19 @@ function loadTest() {
     if ((this.status = 200)) {
       //console.log(this.responseText);
 
-      const jsonFile = JSON.parse(this.responseText);
+      const customers = JSON.parse(this.responseText);
 
-      const output = `<ul>
-            <li>id: ${jsonFile.id}</li>
-            <li>name: ${jsonFile.name}</li>
-            <li>compagnie: ${jsonFile.compagnie}</li>
-            <li>phone: ${jsonFile.phone}</li>
+      let output = "";
+
+      customers.forEach(customer => {
+        output += `<ul>
+            <li>id: ${customer.id}</li>
+            <li>name: ${customer.name}</li>
+            <li>compagnie: ${customer.compagnie}</li>
+            <li>phone: ${customer.phone}</li>
         </ul>    
       `;
+      });
 
       document.querySelector("#output").innerHTML = output;
     }

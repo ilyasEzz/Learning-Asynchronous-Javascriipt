@@ -1,8 +1,3 @@
-const posts = [
-  { title: "Post One", body: "this is the first Post" },
-  { title: "Post Two", body: "this is the second Post" }
-];
-
 // Synchronous
 /* function createPost(post) {
   setTimeout(() => {
@@ -41,5 +36,3 @@ function getPosts() {
     document.querySelector(".getOutput").innerHTML = output;
   }, 1000);
 }
-
-createPost({ title: "Post Three", body: "this is the third Post" }, getPosts);
